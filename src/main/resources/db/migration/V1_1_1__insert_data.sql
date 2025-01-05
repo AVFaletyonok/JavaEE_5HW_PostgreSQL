@@ -1,0 +1,12 @@
+INSERT INTO products (id, name, price) VALUES (1, 'Milk', 100);
+INSERT INTO products (id, name, price) VALUES (2, 'Bread', 50);
+INSERT INTO products (id, name, price) VALUES (3, 'Eggs', 120);
+INSERT INTO products (id, name, price) VALUES (4, 'Butter', 170);
+INSERT INTO products (id, name, price) VALUES (5, 'Rice', 90);
+INSERT INTO cart (id, owner) VALUES (1, 'Alex');
+INSERT INTO cart (id, owner) VALUES (2, 'Anna');
+INSERT INTO product_cart (cart_id, product_id) VALUES (1, 1);
+INSERT INTO product_cart (cart_id, product_id) VALUES (1, 2);
+INSERT INTO product_cart (cart_id, product_id) VALUES (1, 3);
+INSERT INTO product_cart (cart_id, product_id) VALUES (2, 4);
+INSERT INTO product_cart (cart_id, product_id) VALUES (2, 5);
